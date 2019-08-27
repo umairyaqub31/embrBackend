@@ -1,0 +1,44 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "2": "^2.0.0",
+    "@babel/core": "^7.1.6",
+    "babel-jest": "^23.6.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.10",
+    "python": "0.0.4",
+    "react": "16.8.6",
+    "react-native": "0.60.0",
+    "redux-devtools": "^3.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/runtime": "^7.5.4",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.55.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "proxy": "http://localhost:5000/"
+}
+
